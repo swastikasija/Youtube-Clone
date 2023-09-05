@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+    body {
+        font-family: 'Rubik';
+        background-color: #0f0f0f;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    input {
+        height: 20px;
+        width: 300px;
+        text-align: center;
+        margin-block: 30px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    h3 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    button {
+        cursor: pointer;
+        background-image: linear-gradient(to right top, #d53a0b, #efff0f);
+        width: 80px;
+        height: 24px;
+        border: none;
+        color: rgb(0, 0, 0);
+        transition: all 0.2s ease;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        color: white;
+        /* background-color: rgb(54, 155, 150); */
+    }
+
+    .card {
+        padding: 10px;
+        padding: 30px;
+        border-radius: 13px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        box-shadow: 0px 0px 25px 0px blueviolet;
+        background-size: cover;
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 40px;
+    }
+
+   .card >img {
+        width: 280px;
+        border-radius: 13px;
+        /* position: absolute; */
+        transition: all 0.3s ease;
+    }
+    .card >img:hover{
+        scale: 1.1;
+    }
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: aqua;
+    }
